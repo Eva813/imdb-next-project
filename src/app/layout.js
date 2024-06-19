@@ -6,9 +6,9 @@ import Navbar from '@/components/Navbar';
 import SearchBox from '@/components/SearchBox';
 
 const inter = Inter({ subsets: ['latin'] });
-
+// for metadata tag (seo friendly) 
 export const metadata = {
-  title: 'IMDb clone',
+  title: 'IMDb',
   description: 'This is a movie database clone',
 };
 
@@ -18,8 +18,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Providers>
           <Header />
-          <Navbar />
-          <SearchBox />
+          {/* <Navbar /> */}
+          {/* <SearchBox /> */}
           {children}
         </Providers>
       </body>
