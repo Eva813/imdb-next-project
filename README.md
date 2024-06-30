@@ -3,15 +3,6 @@
 This is a Next.js project for browsing IMDb's top-rated and trending movies.
 https://imdb-next-project-topaz.vercel.app/
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 `imdb-next-project` is a web application built with Next.js that allows users to browse IMDb's top-rated and trending movies. It uses the IMDb API to fetch the latest movie data.
