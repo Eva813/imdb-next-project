@@ -8,11 +8,12 @@ export default function SearchBox() {
   const router = useRouter();
   const handleSubmit = (e) => {
     e.preventDefault();
+    // redirect to the search page
     router.push(`/search/${search}`);
   };
   return (
     <form
-      className='flex justify-between px-5 max-w-6xl mx-auto'
+      className='flex justify-between px-2 max-w-6xl mx-auto border-b-2 border-gray-200'
       onSubmit={handleSubmit}
     >
       <input
